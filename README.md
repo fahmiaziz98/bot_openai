@@ -6,13 +6,11 @@ To get started with the chat bot, follow these steps:
 
 1. Obtain OpenAI API Key: Visit the OpenAI website to obtain your API key.
 2. Clone the Repository: Use the following command to clone the repository to your local machine :
-
-`git clone https://github.com/fahmiaziz98/bot_openai.git`
+    `git clone https://github.com/fahmiaziz98/bot_openai.git`
 
 3. Create API Key File: Create a file named openaiapikey.txt in the root directory of the project and save your OpenAI API key in this file.
 4. Install Dependencies: Install the necessary dependencies by running the following command: 
-
-`pip install -r requirements.txt`
+    `pip install -r requirements.txt`
 
 Run the Application: Start the chat bot by running the flask_app.py script.
 5. Deploy on AWS: If you want to deploy the chat bot on AWS, you can refer to the guide on deploying a GPT-3 flask application using AWS CodePipeline and Elastic Beanstalk [here](https://medium.com/@contact.blessin/deploying-a-gpt-3-flask-application-on-aws-codepipeline-and-elastic-beanstalk-681cd2ece897).

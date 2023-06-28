@@ -20,7 +20,7 @@ To get started with the chat bot, follow these steps:
 5. Run the Application: Start the chat bot by running the `python flask_app.py` script.
 6. Deploy on AWS: If you want to deploy the chat bot on AWS, you can refer to the guide on deploying a GPT-3 flask application using AWS CodePipeline and Elastic Beanstalk [here](https://medium.com/@contact.blessin/deploying-a-gpt-3-flask-application-on-aws-codepipeline-and-elastic-beanstalk-681cd2ece897).
 
-![bot](BotV1.png)
+![bot](BotV2.png)
 
 ![bot](update_ui.png)
 

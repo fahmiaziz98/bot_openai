@@ -1,17 +1,20 @@
-# gpt3-flask-bot
+# AI Chat Bot using GPT-3
+This repository contains an AI chat bot that utilizes the autoregressive transformer language model GPT-3 for interactive conversations. The chat bot's interactions are saved in the gpt3_logs directory.
 
-This repository contains AI chat bot which uses autoregressive transformer language model GPT-3 for interaction. Interactions are saved in gpt3_logs.
+## Getting Started
+To get started with the chat bot, follow these steps:
 
-1. Openai Key (visit: openai to get your api key)
-2. Download the repository:
-3. git clone https://github.com/blessinvarkey/gpt3-bot.git
-4. Create file openaiapikey.txt and save the api key.
-5. install dependencies
-6. run flask_app.py
+1. Obtain OpenAI API Key: Visit the OpenAI website to obtain your API key.
+2. Clone the Repository: Use the following command to clone the repository to your local machine `git clone https://github.com/blessinvarkey/gpt3-bot.git`
+3. Create API Key File: Create a file named openaiapikey.txt in the root directory of the project and save your OpenAI API key in this file.
+4. Install Dependencies: Install the necessary dependencies by running the following command: `pip install -r requirements.txt`
+Run the Application: Start the chat bot by running the flask_app.py script.
+5. Deploy on AWS: If you want to deploy the chat bot on AWS, you can refer to the guide on deploying a GPT-3 flask application using AWS CodePipeline and Elastic Beanstalk [here](https://medium.com/@contact.blessin/deploying-a-gpt-3-flask-application-on-aws-codepipeline-and-elastic-beanstalk-681cd2ece897).
 
-### Deploy on AWS
-Check out how to deploying a GPT-3 flask application using AWS CodePipeline and Elastic Beanstalk [here](https://medium.com/@contact.blessin/deploying-a-gpt-3-flask-application-on-aws-codepipeline-and-elastic-beanstalk-681cd2ece897)
+![bot](BotV1.png)
 
-![bot](BotV2.png)
+## Contributing
+Contributions to the development and improvement of the AI chat bot are welcome. If you have any ideas, suggestions, or bug reports, please open an issue or submit a pull request.
 
-
+## License
+This project is licensed under the MIT License. Feel free to customize the README file according to your specific project requirements.
